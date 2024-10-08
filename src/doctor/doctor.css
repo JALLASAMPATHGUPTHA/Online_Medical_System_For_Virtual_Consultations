@@ -1,0 +1,195 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar {
+    /* background-color: #ffffff; */
+    top: 0;
+    width: 100%;
+    /* border-bottom: 2px solid #007bff; */
+  }
+  
+  .navbar ul {
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: larger;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .navbar a.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  body {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* This ensures the background image takes the full view height */
+    margin: 0;
+  }
+
+
+  
+
+
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prescription-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .prescription-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .prescription-form input,
+  .prescription-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%; /* Make input fill the form width */
+  }
+  
+  .prescription-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .send-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #218838;
+  }
+
+  /* patientdetail */
+  .app-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .logout-btn {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .patient-details-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .patient-details-section p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  
