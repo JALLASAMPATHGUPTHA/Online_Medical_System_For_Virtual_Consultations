@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Online_Medical_System_For_Virtual_Consultations/static/css/main.363cc861.css",
-    "main.js": "/Online_Medical_System_For_Virtual_Consultations/static/js/main.2f863f3e.js",
+    "main.css": "/Online_Medical_System_For_Virtual_Consultations/static/css/main.c633fb5c.css",
+    "main.js": "/Online_Medical_System_For_Virtual_Consultations/static/js/main.6b58f4a5.js",
     "static/js/453.72e3b02e.chunk.js": "/Online_Medical_System_For_Virtual_Consultations/static/js/453.72e3b02e.chunk.js",
     "static/media/hospital.jpg": "/Online_Medical_System_For_Virtual_Consultations/static/media/hospital.0d4e91aa96ac26b097e8.jpg",
+    "static/media/ICU.jpg": "/Online_Medical_System_For_Virtual_Consultations/static/media/ICU.570a29caff1ebb4237bb.jpg",
     "index.html": "/Online_Medical_System_For_Virtual_Consultations/index.html",
-    "main.363cc861.css.map": "/Online_Medical_System_For_Virtual_Consultations/static/css/main.363cc861.css.map",
-    "main.2f863f3e.js.map": "/Online_Medical_System_For_Virtual_Consultations/static/js/main.2f863f3e.js.map",
+    "main.c633fb5c.css.map": "/Online_Medical_System_For_Virtual_Consultations/static/css/main.c633fb5c.css.map",
+    "main.6b58f4a5.js.map": "/Online_Medical_System_For_Virtual_Consultations/static/js/main.6b58f4a5.js.map",
     "453.72e3b02e.chunk.js.map": "/Online_Medical_System_For_Virtual_Consultations/static/js/453.72e3b02e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.363cc861.css",
-    "static/js/main.2f863f3e.js"
+    "static/css/main.c633fb5c.css",
+    "static/js/main.6b58f4a5.js"
   ]
 }
